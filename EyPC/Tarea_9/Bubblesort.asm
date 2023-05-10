@@ -26,6 +26,7 @@ section .text
  mov esi, buffer        ;se mueve la direccion del buffer para poder imprimir el arreglo
  mov ebx, 0             ;contador del arreglo para terminar la funcion conversion
  call conversion        ;esta funcion convierte e imprime el arreglo
+ 
  call bubble_sort       ;se llama la funcion bubble_sort
  
  mov eax, 4
