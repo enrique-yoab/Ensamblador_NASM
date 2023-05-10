@@ -5,7 +5,6 @@ len1 equ $-men1                                       ;tamaño del mensaje 1
 men2 db 0xA,"El arreglo despues de ser ordenado: ", 0 ;mensaje 2
 len2 equ $-men2                                       ;tamaño del mensaje 2
 salto db 0x20, 0                                      ;espacio de linea
-arrlen equ $-arreglo                                  ;tamaño del arreglo 
 espacio db 0xA                                        ;salto de linea
 
 section .bss 
